@@ -25,9 +25,9 @@ const PortfolioSection = () => {
 
         <Cards>
           <div className="project-1">
-            <motion.h2 variants={fade}>Restaurant Review App</motion.h2>
+            <motion.h2 variants={fade}>Music Player App</motion.h2>
             <a
-              href="https://jon-laboy.github.io/Restaurant-Review2/"
+              href="https://jon-laboy.github.io/chillHop-music-app/"
               target="_blank" rel="noreferrer"
             >
             <motion.img
@@ -35,49 +35,14 @@ const PortfolioSection = () => {
               initial="hidden"
               animate="show"
               style={{ width: "100%" }}
-              src={mapProject}
-              alt="map app pic"
+              src={musicProject}
+              alt="music app pic"
             />
             </a>
             <p>
-            This React App utilizes the Google Maps API. Restaurants populate based on the user's geo-location. The user can view information about the restaurants, add their own reviews, and filter viewable restaurants by their ratings. The user can also add new restaurants to the map with their own information.
+            This React App contains a list of songs the user can skip through, shuffle through, or repeat as selected.
             </p>
              <div className="project-link-btns">
-              <a
-                href="https://jon-laboy.github.io/Restaurant-Review2/"
-                target="_blank" rel="noreferrer"
-              >
-                <motion.button variants={fade}>View Site</motion.button>
-              </a>
-              <a
-                href="https://github.com/Jon-Laboy/Restaurant-Review2"
-                target="_blank" rel="noreferrer"
-              >
-                <motion.button variants={fade}>View Code</motion.button>
-              </a>
-            </div> 
-          </div>
-          <div className="project-2">
-            <motion.h2 variants={fade}>Music Player App</motion.h2>
-            <a
-              href="https://jon-laboy.github.io/chillHop-music-app/"
-              target="_blank" rel="noreferrer"
-            >
-              <motion.img
-                variants={{ photoAnim }}
-                initial="hidden"
-                animate="show"
-                style={{ width: "99%" }}
-                src={musicProject}
-                alt="music app pic"
-              />{" "}
-            </a>
-            <p>
-              This React App contains a list of songs the user can skip through, shuffle through, or repeat as selected.
-
-{" "}
-            </p>
-            <div className="project-link-btns">
               <a
                 href="https://jon-laboy.github.io/chillHop-music-app/"
                 target="_blank" rel="noreferrer"
@@ -86,6 +51,40 @@ const PortfolioSection = () => {
               </a>
               <a
                 href="https://github.com/Jon-Laboy/chillHop-music-app"
+                target="_blank" rel="noreferrer"
+              >
+                <motion.button variants={fade}>View Code</motion.button>
+              </a>
+            </div> 
+          </div>
+          <div className="project-2">
+            <motion.h2 variants={fade}>Restaurant Review App</motion.h2>
+            <a
+              href="https://jon-laboy.github.io/Restaurant-Review2/"
+              target="_blank" rel="noreferrer"
+            >
+              <motion.img
+                variants={{ photoAnim }}
+                initial="hidden"
+                animate="show"
+                style={{ width: "99%" }}
+                src={mapProject}
+                alt="map app pic"
+              />{" "}
+            </a>
+            <p>
+            This React App utilizes the Google Maps API. Restaurants populate based on the user's geo-location. The user can view information about the restaurants, add their own reviews, and filter viewable restaurants by their ratings. The user can also add new restaurants to the map with their own information.
+{" "}
+            </p>
+            <div className="project-link-btns">
+              <a
+                href="https://jon-laboy.github.io/Restaurant-Review2/"
+                target="_blank" rel="noreferrer"
+              >
+                <motion.button variants={fade}>View Site</motion.button>
+              </a>
+              <a
+                href="https://github.com/Jon-Laboy/Restaurant-Review2"
                 target="_blank" rel="noreferrer"
               >
                 <motion.button variants={fade}>View Code</motion.button>
@@ -137,7 +136,9 @@ const Services = styled(About)`
   }
   p {
     width: 70%;
+    line-height: 2rem; 
     padding: 2rem 0rem 4rem 0rem;
+    text-align:center; 
   }
   .contact-btn {
     display: flex;
