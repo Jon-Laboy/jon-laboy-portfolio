@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.96568c5f.chunk.js",
-    "main.js.map": "/static/js/main.96568c5f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e6a869e2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e6a869e2.js.map",
-    "static/js/2.b539b230.chunk.js": "/static/js/2.b539b230.chunk.js",
-    "static/js/2.b539b230.chunk.js.map": "/static/js/2.b539b230.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.b539b230.chunk.js.LICENSE.txt": "/static/js/2.b539b230.chunk.js.LICENSE.txt",
-    "static/media/aboutMePic.72985504.jpg": "/static/media/aboutMePic.72985504.jpg",
-    "static/media/home1.19fbe984.jpg": "/static/media/home1.19fbe984.jpg",
-    "static/media/mapProject.2c04c8e2.PNG": "/static/media/mapProject.2c04c8e2.PNG",
-    "static/media/movieProject.ae2ffeed.PNG": "/static/media/movieProject.ae2ffeed.PNG",
-    "static/media/musicProject.56ba190b.PNG": "/static/media/musicProject.56ba190b.PNG"
+    "main.js": "/jon-laboy-portfolio/static/js/main.57fac15f.chunk.js",
+    "main.js.map": "/jon-laboy-portfolio/static/js/main.57fac15f.chunk.js.map",
+    "runtime-main.js": "/jon-laboy-portfolio/static/js/runtime-main.d30bae44.js",
+    "runtime-main.js.map": "/jon-laboy-portfolio/static/js/runtime-main.d30bae44.js.map",
+    "static/js/2.1b1dfe43.chunk.js": "/jon-laboy-portfolio/static/js/2.1b1dfe43.chunk.js",
+    "static/js/2.1b1dfe43.chunk.js.map": "/jon-laboy-portfolio/static/js/2.1b1dfe43.chunk.js.map",
+    "index.html": "/jon-laboy-portfolio/index.html",
+    "static/js/2.1b1dfe43.chunk.js.LICENSE.txt": "/jon-laboy-portfolio/static/js/2.1b1dfe43.chunk.js.LICENSE.txt",
+    "static/media/aboutMePic.72985504.jpg": "/jon-laboy-portfolio/static/media/aboutMePic.72985504.jpg",
+    "static/media/home1.19fbe984.jpg": "/jon-laboy-portfolio/static/media/home1.19fbe984.jpg",
+    "static/media/mapProject.2c04c8e2.PNG": "/jon-laboy-portfolio/static/media/mapProject.2c04c8e2.PNG",
+    "static/media/movieProject.ae2ffeed.PNG": "/jon-laboy-portfolio/static/media/movieProject.ae2ffeed.PNG",
+    "static/media/musicProject.56ba190b.PNG": "/jon-laboy-portfolio/static/media/musicProject.56ba190b.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6a869e2.js",
-    "static/js/2.b539b230.chunk.js",
-    "static/js/main.96568c5f.chunk.js"
+    "static/js/runtime-main.d30bae44.js",
+    "static/js/2.1b1dfe43.chunk.js",
+    "static/js/main.57fac15f.chunk.js"
   ]
 }
