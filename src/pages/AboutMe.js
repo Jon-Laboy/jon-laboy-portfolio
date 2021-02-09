@@ -41,7 +41,9 @@ const AboutMe = () => {
         <div className="p-container">
           <motion.p variants={fade}>
             <p>
-              I'm a front-end developer passionate about putting what I have in
+              I'm a front-end developer skilled in Html, Css, Sass, Bootstrap, Styled Components,
+              Git/Github, Javascript, Jquery, and React. </p>
+              <p> I am passionate about taking what I have in
               my mind and making it look even better on the screen. Once
               completed, I use my knowledge of javascript to give my creations
               functioning legs. At times I use my keyboard as a bouncing
@@ -49,10 +51,7 @@ const AboutMe = () => {
               puzzle in front of me gets solved and my creations come to light.
               This is what I love to do.{" "}
             </p>
-            <p>
-              My skills include - Html, Css, Sass, Bootstrap, Styled Components,
-              Git/Github, Javascript, Jquery, React.
-            </p>
+      
           </motion.p>
         </div>
       </div>
