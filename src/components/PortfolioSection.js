@@ -25,7 +25,7 @@ const PortfolioSection = () => {
 
         <Cards>
           <div className="project-1">
-            <motion.h2 variants={fade}>Music Player App</motion.h2>
+            <motion.h2 variants={fade}>Chill-Hop Music App</motion.h2>
             <a
               href="https://jon-laboy.github.io/chillHop-music-app/"
               target="_blank" rel="noreferrer"
