@@ -72,7 +72,7 @@ const PortfolioSection = () => {
                 alt="map app pic"
               />{" "}
             </a>
-            <p>
+            <p class = "lower-p-tags">
             This React App utilizes the Google Maps API. Restaurants populate based on the user's geo-location. The user can view information about the restaurants, add their own reviews, and filter viewable restaurants by their ratings. The user can also add new restaurants to the map with their own information.
 {" "}
             </p>
@@ -103,9 +103,9 @@ const PortfolioSection = () => {
                 alt="movie app pic"
               />
             </a>
-            <p>
-              This React App utilizes The Movie Database API. The user can search popular movies by title or discover movies by genre.
-
+            <p class = "lower-p-tags">
+              This React App utilizes The Movie Database API. The user can search popular movies by title or discover movies by genre. Each movie will have the title, poster and release date.
+              The user can also click on a description button to read the movie's description. 
 
             </p>
             <div className="project-link-btns">
@@ -139,6 +139,10 @@ const Services = styled(About)`
     line-height: 2rem; 
     padding: 2rem 0rem 4rem 0rem;
     text-align:center; 
+    text-decoration:bold;   
+  }
+  .lower-p-tags {
+    height: 14rem;
   }
   .contact-btn {
     display: flex;
@@ -169,7 +173,7 @@ const Cards = styled.div`
   .project-link-btns {
     display: flex;
     justify-content: center;
-    margin-top: 0;
+    margin-top: 1.2rem;
     button {
       margin: 0rem 0.5rem 6rem 0.5rem
     }
