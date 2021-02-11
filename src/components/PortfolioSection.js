@@ -173,7 +173,7 @@ const Cards = styled.div`
   .project-link-btns {
     display: flex;
     justify-content: center;
-    margin-top: 1.2rem;
+    /* margin-top: 1.2rem; */
     button {
       margin: 0rem 0.5rem 6rem 0.5rem
     }
@@ -190,6 +190,15 @@ const Cards = styled.div`
     div:first-child {
       flex: 0 1 100%;
       width: 100%;
+    }
+  }
+  @media (max-width: 400px) {
+    .project-link-btns {
+      margin-top: 2rem;
+    }
+  @media (max-width: 365px) {
+    .project-link-btns {
+      margin-top: 3rem;
     }
   }
 `;
