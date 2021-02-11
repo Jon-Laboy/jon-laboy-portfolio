@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/jon-laboy-portfolio/static/js/main.3d53600a.chunk.js",
-    "main.js.map": "/jon-laboy-portfolio/static/js/main.3d53600a.chunk.js.map",
+    "main.js": "/jon-laboy-portfolio/static/js/main.40f0b17d.chunk.js",
+    "main.js.map": "/jon-laboy-portfolio/static/js/main.40f0b17d.chunk.js.map",
     "runtime-main.js": "/jon-laboy-portfolio/static/js/runtime-main.d30bae44.js",
     "runtime-main.js.map": "/jon-laboy-portfolio/static/js/runtime-main.d30bae44.js.map",
     "static/js/2.1b1dfe43.chunk.js": "/jon-laboy-portfolio/static/js/2.1b1dfe43.chunk.js",
@@ -17,6 +17,6 @@
   "entrypoints": [
     "static/js/runtime-main.d30bae44.js",
     "static/js/2.1b1dfe43.chunk.js",
-    "static/js/main.3d53600a.chunk.js"
+    "static/js/main.40f0b17d.chunk.js"
   ]
 }
