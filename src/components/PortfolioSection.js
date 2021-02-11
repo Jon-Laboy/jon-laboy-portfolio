@@ -78,13 +78,13 @@ const PortfolioSection = () => {
             </p>
             <div className="project-link-btns">
               <a
-                href="https://jon-laboy.github.io/Restaurant-Review2/"
+                href="https://jon-laboy.github.io/react-restaurant-app/"
                 target="_blank" rel="noreferrer"
               >
                 <motion.button variants={fade}>View Site</motion.button>
               </a>
               <a
-                href="https://github.com/Jon-Laboy/Restaurant-Review2"
+                href="https://github.com/Jon-Laboy/react-restaurant-app"
                 target="_blank" rel="noreferrer"
               >
                 <motion.button variants={fade}>View Code</motion.button>
