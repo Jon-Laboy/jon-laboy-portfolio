@@ -60,7 +60,7 @@ const PortfolioSection = () => {
           <div className="project-2">
             <motion.h2 variants={fade}>Restaurant Review App</motion.h2>
             <a
-              href="https://jon-laboy.github.io/Restaurant-Review2/"
+              href="https://jon-laboy.github.io/react-restaurant-app/"
               target="_blank" rel="noreferrer"
             >
               <motion.img
