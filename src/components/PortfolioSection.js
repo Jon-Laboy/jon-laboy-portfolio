@@ -60,7 +60,7 @@ const PortfolioSection = () => {
           <div className="project-2">
             <motion.h2 variants={fade}>Restaurant Review App</motion.h2>
             <a
-              href="https://jon-laboy.github.io/react-restaurant-app/"
+              href="https://focused-hypatia-446a61.netlify.app/"
               target="_blank" rel="noreferrer"
             >
               <motion.img
@@ -78,7 +78,7 @@ const PortfolioSection = () => {
             </p>
             <div className="project-link-btns">
               <a
-                href="https://jon-laboy.github.io/react-restaurant-app/"
+                href="https://focused-hypatia-446a61.netlify.app/"
                 target="_blank" rel="noreferrer"
               >
                 <motion.button variants={fade}>View Site</motion.button>
