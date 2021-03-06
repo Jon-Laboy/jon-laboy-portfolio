@@ -1,5 +1,5 @@
 import React from "react";
-import mapProject from "../img/mapProject.PNG";
+import gameProject from "../img/gameProject.PNG";
 import movieProject from "../img/movieProject.PNG";
 import musicProject from "../img/musicProject.PNG";
 import { useScroll } from "./UseScroll";
@@ -58,9 +58,9 @@ const PortfolioSection = () => {
             </div> 
           </div>
           <div className="project-2">
-            <motion.h2 variants={fade}>Restaurant Review App</motion.h2>
+            <motion.h2 variants={fade}>Space Wars Game</motion.h2>
             <a
-              href="https://focused-hypatia-446a61.netlify.app/"
+              href="https://jon-laboy.github.io/project-6-game/"
               target="_blank" rel="noreferrer"
             >
               <motion.img
@@ -68,23 +68,24 @@ const PortfolioSection = () => {
                 initial="hidden"
                 animate="show"
                 style={{ width: "99%" }}
-                src={mapProject}
+                src={gameProject}
                 alt="map app pic"
+                className = "lower-image"
               />{" "}
             </a>
             <p class = "lower-p-tags">
-            This React App utilizes the Google Maps API. Restaurants populate based on the user's geo-location. The user can view information about the restaurants, add their own reviews, and filter viewable restaurants by their ratings. The user can also add new restaurants to the map with their own information.
+            Turn based game where two players move through the map/around obstacles to collect weapons and battle when they land on adjacent squares. Uses Object-Oriented JavaScript, jQuery, HTML, and CSS.
 {" "}
             </p>
             <div className="project-link-btns">
               <a
-                href="https://focused-hypatia-446a61.netlify.app/"
+                href="https://jon-laboy.github.io/project-6-game/"
                 target="_blank" rel="noreferrer"
               >
                 <motion.button variants={fade}>View Site</motion.button>
               </a>
               <a
-                href="https://github.com/Jon-Laboy/react-restaurant-app"
+                href="https://github.com/Jon-Laboy/project-6-game"
                 target="_blank" rel="noreferrer"
               >
                 <motion.button variants={fade}>View Code</motion.button>
@@ -101,6 +102,7 @@ const PortfolioSection = () => {
                 style={{ width: "99%" }}
                 src={movieProject}
                 alt="movie app pic"
+                className = "lower-image"
               />
             </a>
             <p class = "lower-p-tags">
@@ -173,7 +175,6 @@ const Cards = styled.div`
   .project-link-btns {
     display: flex;
     justify-content: center;
-    /* margin-top: 1.2rem; */
     button {
       margin: 0rem 0.5rem 6rem 0.5rem
     }
