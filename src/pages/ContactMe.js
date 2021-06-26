@@ -27,7 +27,7 @@ const ContactMe = () => {
         <Hide>
         <Social variants={titleAnim}>
         <Circle />
-           <a href="https://www.linkedin.com/in/jon-laboy-815172195/" target="__blank"><h2>Linkedin</h2></a>
+           <a href="http://www.linkedin.com/in/jon-laboy" target="__blank"><h2>Linkedin</h2></a>
           </Social>
         </Hide>
       </div>

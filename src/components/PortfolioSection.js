@@ -28,40 +28,45 @@ const PortfolioSection = () => {
             <motion.h2 variants={fade}>Chill-Hop Music App</motion.h2>
             <a
               href="https://jon-laboy.github.io/chillHop-music-app/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
-            <motion.img
-              variants={{ photoAnim }}
-              initial="hidden"
-              animate="show"
-              style={{ width: "100%" }}
-              src={musicProject}
-              alt="music app pic"
-            />
+              <motion.img
+                variants={{ photoAnim }}
+                initial="hidden"
+                animate="show"
+                style={{ width: "100%" }}
+                src={musicProject}
+                alt="music app pic"
+              />
             </a>
             <p>
-            This React App contains a list of songs the user can skip through, shuffle through, or repeat as selected.
+              This React App contains a list of songs the user can skip through,
+              shuffle through, or repeat as selected.
             </p>
-             <div className="project-link-btns">
+            <div className="project-link-btns">
               <a
                 href="https://jon-laboy.github.io/chillHop-music-app/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <motion.button variants={fade}>View Site</motion.button>
               </a>
               <a
                 href="https://github.com/Jon-Laboy/chillHop-music-app"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <motion.button variants={fade}>View Code</motion.button>
               </a>
-            </div> 
+            </div>
           </div>
           <div className="project-2">
-            <motion.h2 variants={fade}>Space Wars Game</motion.h2>
+            <motion.h2 variants={fade}>Game Pad</motion.h2>
             <a
-              href="https://jon-laboy.github.io/project-6-game/"
-              target="_blank" rel="noreferrer"
+              href="https://jon-laboy.github.io/vido-game-app/"
+              target="_blank"
+              rel="noreferrer"
             >
               <motion.img
                 variants={{ photoAnim }}
@@ -70,23 +75,27 @@ const PortfolioSection = () => {
                 style={{ width: "99%" }}
                 src={gameProject}
                 alt="map app pic"
-                className = "lower-image"
+                className="lower-image"
               />{" "}
             </a>
-            <p class = "lower-p-tags">
-            Turn based game where two players move through the map/around obstacles to collect weapons and battle when they land on adjacent squares. Uses Object-Oriented JavaScript, jQuery, HTML, and CSS.
-{" "}
+            <p class="lower-p-tags">
+              This project utilizes the Rawg.io API. It was built with React,
+              Material UI, SASS, React Icons, and React Hooks. The user can view
+              upcoming, popular, and new video games and also search for games
+              by title.
             </p>
             <div className="project-link-btns">
               <a
-                href="https://jon-laboy.github.io/project-6-game/"
-                target="_blank" rel="noreferrer"
+                href="https://jon-laboy.github.io/vido-game-app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 <motion.button variants={fade}>View Site</motion.button>
               </a>
               <a
-                href="https://github.com/Jon-Laboy/project-6-game"
-                target="_blank" rel="noreferrer"
+                href="https://github.com/Jon-Laboy/vido-game-app"
+                target="_blank"
+                rel="noreferrer"
               >
                 <motion.button variants={fade}>View Code</motion.button>
               </a>
@@ -94,7 +103,11 @@ const PortfolioSection = () => {
           </div>
           <div className="project-3">
             <motion.h2 variants={fade}>Movie App</motion.h2>
-            <a href="https://jon-laboy.github.io/What2Watch/" target="_blank" rel="noreferrer">
+            <a
+              href="https://jon-laboy.github.io/What2Watch/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <motion.img
                 variants={{ photoAnim }}
                 initial="hidden"
@@ -102,19 +115,29 @@ const PortfolioSection = () => {
                 style={{ width: "99%" }}
                 src={movieProject}
                 alt="movie app pic"
-                className = "lower-image"
+                className="lower-image"
               />
             </a>
-            <p class = "lower-p-tags">
-              This React App utilizes The Movie Database API. The user can search popular movies by title or discover movies by genre. Each movie will have the title, poster and release date.
-              The user can also click on a description button to read the movie's description. 
-
+            <p class="lower-p-tags">
+              This React App utilizes The Movie Database API. The user can
+              search popular movies by title or discover movies by genre. Each
+              movie will have the title, poster and release date. The user can
+              also click on a description button to read the movie's
+              description.
             </p>
             <div className="project-link-btns">
-              <a href="https://jon-laboy.github.io/What2Watch/" target="_blank" rel="noreferrer">
+              <a
+                href="https://jon-laboy.github.io/What2Watch/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <motion.button variants={fade}>View Site</motion.button>
               </a>
-              <a href="https://github.com/Jon-Laboy/What2Watch" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/Jon-Laboy/What2Watch"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <motion.button variants={fade}>View Code</motion.button>
               </a>
             </div>
@@ -133,15 +156,15 @@ const PortfolioSection = () => {
 
 const Services = styled(About)`
   h2 {
-    margin-top: 1.8rem; 
+    margin-top: 1.8rem;
     padding-bottom: 1.2rem;
   }
   p {
     width: 70%;
-    line-height: 2rem; 
+    line-height: 2rem;
     padding: 2rem 0rem 4rem 0rem;
-    text-align:center; 
-    text-decoration:bold;   
+    text-align: center;
+    text-decoration: bold;
   }
   .lower-p-tags {
     height: 14rem;
@@ -205,7 +228,3 @@ const Cards = styled.div`
 `;
 
 export default PortfolioSection;
-
-
-
-
