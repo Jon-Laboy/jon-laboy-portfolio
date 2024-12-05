@@ -24,7 +24,7 @@ const PortfolioSection = () => {
         <motion.div variants={lineAnim} className="line"></motion.div>
 
         <Cards>
-          <div className="project-1">
+          {/* <div className="project-1">
             <motion.h2 variants={fade}>Chill-Hop Music App</motion.h2>
             <a
               href="https://jon-laboy.github.io/chillHop-music-app/"
@@ -60,7 +60,7 @@ const PortfolioSection = () => {
                 <motion.button variants={fade}>View Code</motion.button>
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="project-2">
             <motion.h2 variants={fade}>Game Pad</motion.h2>
             <a
